@@ -1,0 +1,69 @@
+Start collecting info about others using OS geo software.
+
+CSIRO are implementing geoserver by june 2011 because they have a strong need, being a scientific institution, to share data. standards are an important part of the strategy.
+https://www.seegrid.csiro.au/wiki/bin/view/Infosrvices/GeoServer
+--------
+Motivations:
+Passionate about geospatial. Did a PhD about it.
+Worked in LG and recognised LG is a low opex sector. This means the commercial software is not that affordable. Commercial software doesn't develop specific functionality because it is less profiatble.
+Commercial software has caused fragmentation. Planning at higher levels (e.g. State and Federal) is frustrated by framentation in LG.
+Cost excludes 'everyone' in an organisation from using geospatial. In LG, I believe geospatial tools should be as ubiquitous as word processors. Therefore, LG needs a low cost option particularly for smaller orgnaisations.
+Realise commercial benefits.
+--------
+Benefits:
+Cost
+Standardisation - improved data sharing
+Avoid Proprietry lock in
+Control - start a branches
+Indivdual Organisation control - fund any change they want
+Open and transparent
+Maximum functionality
+--------
+Challenges:
+Accepting a new way to think.
+Overcoming outdated perceptions:
+~Open Source is viable.
+~Open Source has support.
+~Open Source has broad functionality.
+~Open Source is not Mickey Mouse.
+~Open Source is high in usability.
+
+--------
+Thinking about project structure...
+
+Open Plug and Play Local Government Appliance OPPLGA
+
+Aim:
+1. To create a virtual appliance that delivers an ICT architecture and a suite of application that can primarily be implemented by local government organisations.
+2. The appliance must be implementable by non-technical users in less that half a day.
+
+Organisation:
+Project will be run as a meritocracy, which is a system of governance where appointments are made and responsibilities assigned to individuals based upon demonstrated ability (merit).
+
+Structure:
+Project manager -  me with support from KDN
+
+Teams (sub projects??): one for each app (group by application families):
+Architecture Teams:
+Ubunutu
+postgresql/postgis
+gvSIG
+geoserver/openlayers
+wavemaker
+apache/jetty/tomcat
+documentation
+implementation/production releases/testing
+
+One key point that must be addresses by all teams is how to make any required data independant of the application
+
+Application Teams:
+Asset Management
+
+Rules:
+All teams need to use Ubuntu.
+All documentation will be created using OpenOffice.
+Published documentation will be in PDF format.
+Must manage change - therefore must use as is tools (e.g. Ubuntu)
+Accept updates automatically. (Using VM allows user to rollback easily and data stored elsewhere)
+
+
